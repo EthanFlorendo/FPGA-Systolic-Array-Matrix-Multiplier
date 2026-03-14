@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="matmul_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="matmul_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="853.304 ns"></ZoomEndTime>
+      <Cursor1Time time="710.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/matmul_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/pe_resetn" type="logic">
+      <obj_property name="ElementShortName">pe_resetn</obj_property>
+      <obj_property name="ObjectShortName">pe_resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/clear_done" type="logic">
+      <obj_property name="ElementShortName">clear_done</obj_property>
+      <obj_property name="ObjectShortName">clear_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[7]" type="array">
+      <obj_property name="ElementShortName">[7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/matrix_C/ram[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/u_matmul_4x4/a_data" type="array">
+      <obj_property name="ElementShortName">a_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/u_matmul_4x4/b_data" type="array">
+      <obj_property name="ElementShortName">b_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/u_matmul_4x4/c_data_out" type="array">
+      <obj_property name="ElementShortName">c_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/u_matmul_4x4/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/matmul_tb/u_matmul/u_matmul_4x4/clk_cnt" type="array">
+      <obj_property name="ElementShortName">clk_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[7:0]</obj_property>
+   </wvobject>
+</wave_config>
